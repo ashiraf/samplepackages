@@ -1,0 +1,20 @@
+{
+    "name": "ashiraf/news",
+    "description": "my first laravel package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ashirafali Omary",
+            "email": "ashirafali.omary@ega.go.tz"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+             "ashiraf\\news":"src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate\Support":"-5"
+    }
+}
